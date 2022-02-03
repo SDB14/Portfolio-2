@@ -18,13 +18,8 @@ function About() {
      
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Insightful project manager, experienced in analytics, strategic planning, process improvement, risk assessment and mitigation, policy and procedure development and implementation experience to increase the growth and productivity of the organization and recommend solutions that enable the organization to achieve its goals; working with internal and external customers to ensure the integrity of operations to further the success of the organization.
+
         </p>
       </div>
     </section>
