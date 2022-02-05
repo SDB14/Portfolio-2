@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Project from '../components/Project';
 import {Parallax} from 'react-parallax';
-import coverImage from '../assets';
+import coverImage from '../assets/background.jpeg';
 import './pages.css'
 
 function Portfolio() {

@@ -1,60 +1,45 @@
 import React from 'react';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
-import {Parallax} from 'react-parallax';
-import coverImage from '../assets/Background.jpeg';
+import { Parallax } from 'react-parallax';
+import coverImage from '../assets/background.jpeg';
 import './pages.css'
 
 function Contact() {
   return (
 
     <div>
-     <Parallax bgImage={coverImage} strength={500}>
-     <div className="contactApp">
-<div className="container">
-        <div className="card">
-                    <div className="card-header">
-                        <h3>Contact</h3>
-                    </div>
-            <div className="card-body">
-                        <blockquote className="blockquote mb-0">
-                            <div className="input-group">
-                        <div className="input-group-prepend">
-                                    <span className="input-group-text">First and last name</span>
-                                </div>
-                                <input type="text" aria-label="First name" className="form-control" />
-                                    <input type="text" aria-label="Last name" className="form-control" />
-                    </div>
-                    <div className="input-group mb-3">
-                                        <div className="input-group-prepend">
-                                            <span className="input-group-text" id="inputGroup-sizing-default">Email</span>
-                                        </div>
-                                        <input type="text" className="form-control" aria-label="Sizing example input"
-                                            aria-describedby="inputGroup-sizing-default" />
-                    </div>
-                    <div className="input-group mb-3">
-                                            <div className="input-group-prepend">
-                                                <span className="input-group-text" id="inputGroup-sizing-default">Message</span>
-                                            </div>
-                                            <textarea name="input" id="input" cols="30" rows="5"></textarea>
-                                        </div>
-                                        <input className="btn btn-primary" type="submit" value="Submit" />
-                </blockquote>
-                                    </div>
+      <Parallax bgImage={coverImage} strength={500}>
+        <Header></Header>
+       
+          <div className="row contact-row">
+            <div className="formDiv" id="contact">
+              <h3 className="viewTitle" id="contactTitle">
+                GET IN TOUCH
+              </h3>
+              <div className="row">
+                <div className="row">
+                  <div className="col-sm-12 text-center fluid">
+                    <h5 className="email">thomassarita2008@hotmail.com</h5>
+                  </div>
 
+                  <div className="row">
+                    <div className="col-sm" />
+                    <div className="col-sm text-center">
+                      <a href="https://www.github.com/SDB14" target="_blank"><i class="fab fa-github-square fa-3x" /></a>
+                      <a href="https://www.linkedin.com/in/sarita-thomas-85628730?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8YTta2vmTiSSFOCpp%2Fn%2BRg%3D%3D" target="_blank"><i class="fab fa-linkedin fa-3x" /></a>
+                    </div>
+                    <div className="col-sm" />
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
-                            </div>
-
-
-
-
-        </div>
-
-    <Footer></Footer>
-    </Parallax>
-
+      
+        </Parallax>
+        
     </div>
   );
 }
 
 export default Contact;
+

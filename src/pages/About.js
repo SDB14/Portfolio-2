@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {Parallax} from 'react-parallax';
-import coverImage from '../assets/Background.jpeg';
+import coverImage from '../assets/background.jpeg';
 import './pages.css'
 
 function About() {
