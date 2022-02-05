@@ -17,7 +17,10 @@ function About() {
       <h1 id="about">Sarita Thomas</h1>
      
       <div className="my-2">
-        <p>
+        <img id='Sarita Thomas' src='../assets/SThomas.jpeg' alt='profile pic' width='100%' height='100%'>
+          </img>        
+          
+          <p>
         Insightful project manager, experienced in analytics, strategic planning, process improvement, risk assessment and mitigation, policy and procedure development and implementation experience to increase the growth and productivity of the organization and recommend solutions that enable the organization to achieve its goals; working with internal and external customers to ensure the integrity of operations to further the success of the organization.
 
         </p>

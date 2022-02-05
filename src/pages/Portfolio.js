@@ -15,8 +15,8 @@ function Portfolio() {
             <div style={{height:650}}>
 
     <section className="my-5 textcenter">
-      <h1 id="about">Potfolio</h1>
-     <Project></Project>
+      <h1 id="about">Projects</h1>
+     
       <div className="my-2">
         <p>
           NoteTaker: https://shrouded-shore-50123.herokuapp.com/
