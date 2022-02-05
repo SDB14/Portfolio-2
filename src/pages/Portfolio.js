@@ -19,13 +19,13 @@ function Portfolio() {
      <Project></Project>
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          NoteTaker: https://shrouded-shore-50123.herokuapp.com/
+          WorkDay Scheduler: https://sdb14.github.io/WorkDayScheduler/
+          Password Generator: https://sdb14.github.io/Password-Generator/
+          Regex: https://gist.github.com/SDB14/c21f0d2ba6582483f05e4ffea0663d69.js
+          SafeTravels:  https://sdb14.github.io/safe-travels/
+          BudgetBuddy: https://infinite-sea-98511.herokuapp.com/
+          HomeBucket: 
         </p>
       </div>
     </section>
