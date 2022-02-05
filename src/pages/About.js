@@ -14,7 +14,7 @@ function About() {
         <Header></Header>
             <div style={{height:650}}>
     <section className="my-5 textcenter">
-      <h1 id="about">Who am I?</h1>
+      <h1 id="about">Sarita Thomas</h1>
      
       <div className="my-2">
         <p>
